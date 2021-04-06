@@ -4,7 +4,7 @@ plugins {
     id 'checkstyle'
 }
 
-version = "0.1"
+version = "0.1.Gyndenov"
 group = "ru.mirea"
 
 repositories {
@@ -24,6 +24,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.18'
     compileOnly 'org.projectlombok:lombok:1.18.18'
 
+    implementation('com.opencsv:opencsv:5.4')
     implementation("io.micronaut:micronaut-runtime")
     implementation("io.micronaut:micronaut-validation")
     implementation("io.micronaut:micronaut-http-client")
